@@ -7,6 +7,7 @@ class WordDir
     prepare_dir
   end
 
+  #Prepare the directory of words key with words and value with array of combinations
   def prepare_dir
      File.read(@file).each_line do |word|
        dict_word = word.strip!
@@ -19,6 +20,7 @@ class WordDir
      end
   end
 
+  #Search a word from key value pair of directory
   def search_words(key)
     key.strip!()
     key = key.split("").sort().join("")
