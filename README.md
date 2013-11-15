@@ -13,16 +13,13 @@ Write a small command line application that takes the jumbled input string and p
 the same set of characters. The set of words are listed in the attached file.(dictionary.txt)
 
 -------------------------------------------------------------------------------------------
-Input A:
-aah
+Input A: aah
 
-Output A:
-aah aha
+Output A: aah aha
+
 -------------------------------------------------------------------------------------------
-Input B
-aba
- 
-Output B
-aba baa
+Input B: aba
+
+Output B: aba baa
 
 -------------------------------------------------------------------------------------------
